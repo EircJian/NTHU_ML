@@ -19,7 +19,7 @@ from PIL import Image
 #from tensorflow.keras.models import Sequential
 #from sklearn import metrics
 
-path = 'C:/Users/Eric Jian/Desktop/ml_imgs/Neverland/87/' #這就是欲進行檔名更改的檔案路徑，路徑的斜線是為/，要留意下！
+path = 'C:/Users/username/Desktop/ml_imgs/Neverland/87/' #這就是欲進行檔名更改的檔案路徑，路徑的斜線是為/，要留意下！
 files = os.listdir(path)
 print(files) #印出讀取到的檔名稱，用來確認自己是不是真的有讀到
 
